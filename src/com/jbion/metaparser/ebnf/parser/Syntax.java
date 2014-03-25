@@ -2,7 +2,8 @@ package com.jbion.metaparser.ebnf.parser;
 
 import java.io.IOException;
 
-import com.jbion.metaparser.ebnf.model.SyntaxTree;
+import com.jbion.metaparser.ebnf.parser.lexical.LexicalAnalyzer;
+import com.jbion.metaparser.grammar.model.SyntaxTree;
 
 public class Syntax {
 

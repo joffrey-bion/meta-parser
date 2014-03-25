@@ -1,14 +1,15 @@
-package com.jbion.metaparser.ebnf.model;
+package com.jbion.metaparser.instance.model;
 
 import java.util.LinkedList;
 
 public class SyntaxTree {
 
 	private LinkedList<SyntaxTree> children;
-	private String leafValue = null;
+	private String leafValue;
 
 	public SyntaxTree() {
 		children = new LinkedList<>();
+		leafValue = null;
 	}
 
 	public SyntaxTree(String value) {

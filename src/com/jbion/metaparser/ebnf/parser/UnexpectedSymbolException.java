@@ -31,11 +31,4 @@ public class UnexpectedSymbolException extends SyntaxError {
 		}
 		return sb.toString();
 	}
-
-	public static void main (String[] args) {
-		System.out.println(getMessage("bob","bib","bab","bub"));
-		System.out.println(getMessage("bob","bib","bab"));
-		System.out.println(getMessage("bob","bib"));
-		System.out.println(getMessage("bob"));
-	}
 }

@@ -1,4 +1,4 @@
-package com.jbion.metaparser.ebnf.parser;
+package com.jbion.metaparser.ebnf.parser.lexical;
 
 public class LexicalError extends Exception{
 
