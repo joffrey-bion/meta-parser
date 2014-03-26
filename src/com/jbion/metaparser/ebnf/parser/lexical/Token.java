@@ -43,9 +43,13 @@ public class Token {
 		this.representations = representations;
 	}
 
-	public static List<Token> getMatchingTokens(String s) {
-		LinkedList<Token> list = new LinkedList<>();
+	public static Token create(String s) {
+		// TODO
+		return null;
+	}
 
-		return list;
+	public static int countMatchingTokens(String s) {
+		// TODO
+		return 0;
 	}
 }

@@ -1,6 +1,6 @@
 package com.jbion.metaparser.ebnf.parser.lexical;
 
-public enum Symbol {
+public enum TokenType {
 
 	DEFINING_SYMBOL("="),
 	FIRST_QUOTE_SYMBOL("'"),
@@ -28,7 +28,7 @@ public enum Symbol {
 
 	private String[] representations;
 
-	private Symbol(String... representations) {
+	private TokenType(String... representations) {
 		this.representations = representations;
 	}
 }
