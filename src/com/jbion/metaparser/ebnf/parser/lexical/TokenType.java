@@ -31,4 +31,8 @@ public enum TokenType {
 	private TokenType(String... representations) {
 		this.representations = representations;
 	}
+	
+	public String[] getRepresentations() {
+		return representations;
+	}
 }

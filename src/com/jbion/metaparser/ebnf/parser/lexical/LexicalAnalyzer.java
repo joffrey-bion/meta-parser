@@ -1,9 +1,7 @@
 package com.jbion.metaparser.ebnf.parser.lexical;
 
 import java.io.IOException;
-import java.util.List;
 
-import com.jbion.metaparser.ebnf.parser.syntax.UnexpectedSymbolException;
 import com.jbion.utils.io.UnicodeReader;
 
 public class LexicalAnalyzer extends UnicodeReader {

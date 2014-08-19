@@ -1,8 +1,5 @@
 package com.jbion.metaparser.ebnf.parser.lexical;
 
-import java.util.LinkedList;
-import java.util.List;
-
 public class Token {
 
 	public static final Token DEFINING_SYMBOL = new Token("=");
@@ -51,5 +48,13 @@ public class Token {
 	public static int countMatchingTokens(String s) {
 		// TODO
 		return 0;
+	}
+
+	public String[] getRepresentations() {
+		return representations;
+	}
+
+	public String getRegexp() {
+		return regexp;
 	}
 }
